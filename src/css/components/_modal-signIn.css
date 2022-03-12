@@ -1,0 +1,14 @@
+.modal__content-wrapper-signIn {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal__content-wrapper-signIn > label {
+    margin-top: 15px;
+}
+
+.modal__content-wrapper-signIn > label > input {
+    width: 100%;
+    font-size: 24px;
+    margin-top: 5px;
+}

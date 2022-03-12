@@ -1,0 +1,10 @@
+:root {
+  --clr-main: #bb4488;
+  --clr-bcg: #dfc4c7ff;
+  --clr-bcgActive: #e0bc79ff;
+  --clr-accent: #de1655ff;
+  --clr-inactiveText: #999ad2ff;
+  --clr-interactive: #ffd700;
+  --clr-mainText: #1b1c4b;
+  --loginDialogWidth: 380px;
+}

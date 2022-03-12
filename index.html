@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="apple-touch-icon" sizes="180x180" href="src/assets/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="src/assets/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="src/assets/favicon-16x16.png">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+      integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="src/css/styles.css" />
+   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+   <title>Cards</title>
+</head>
+
+<body>
+   <header>
+      <div class="header__container">
+         <img src="src/img/CardsLogo.png" class="header__logo-img" alt="Cards clinic">
+         <h1 class="header__logo-text">Cards health clinic</h1>
+         <button class="header__button" data-login="login">Login</button>
+      </div>
+      <form class="filters" name="filters">
+         <label for="filterPurpose">Purpose:</label>
+         <input type="text" class="filter__purpose" name="purpose" placeholder="any">
+
+         <label for="filterStatus">Status:</label>
+         <select class="filter__status" name="status">
+            <option value="all" selected="selected">all</option>
+            <option value="open">Open</option>
+            <option value="done">Done</option>
+         </select>
+
+         <label for="filterPriority">Priority:</label>
+         <select class="filter__priority" name="priority">
+            <option value="all" selected="selected">all</option>
+            <option value="normal">Normal</option>
+            <option value="high">High</option>
+            <option value="low">Low</option>
+         </select>
+      </form>
+   </header>
+   <main>
+
+      <div class="main__container">
+
+         <div class="main__no-visits">No items have been added</div>
+      </div>
+   </main>
+   <footer>
+      <div class="footer__container">
+         Copyright KMM team 2021
+      </div>
+   </footer>
+
+   <script type="module" src="src/js/index.js"></script>
+</body>
+
+</html>

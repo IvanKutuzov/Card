@@ -1,0 +1,29 @@
+.modal__content-wrapper-createVisit-form {
+    display: flex;
+    flex-direction: column;
+}
+.modal__content-wrapper-createVisit-form > label {
+    display: flex;
+    flex-direction: column;
+}
+.modal__content-wrapper-createVisit-form > label > select {
+    margin-top: 4px;
+}
+.modal__content-wrapper-createVisit-form-content {
+    display: flex;
+    flex-direction: column;
+}
+.modal__content-wrapper-createVisit-form-content > label {
+    margin-top: 10px;
+}
+.modal__content-wrapper-createVisit-form-content > label > input {
+    width: 97.7%;
+    margin-top: 4px;
+}
+.modal__content-wrapper-createVisit-form-content > label > select {
+    margin-top: 4px;
+    width: 100%;
+}
+.modal__content-wrapper-createVisit-form-content > label > textarea {
+    width: 98%;
+}
